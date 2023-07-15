@@ -36,7 +36,6 @@ if (userDataForm)
     form.append('name', document.getElementById('name').value);
     form.append('email', document.getElementById('email').value);
     form.append('photo', document.getElementById('photo').files[0]);
-    console.log(form);
     updateSettings(form, 'data');
   });
 
@@ -62,7 +61,6 @@ if (userPasswordForm)
 if (bookBtn)
   bookBtn.addEventListener('click', e => {
     e.target.textContent = 'Processing...';
-    console.log('value of data set ===>', e.target.dataset);
     const { tourId } = e.target.dataset; // basically the event listener that trigger this evetlistener i.e book-tour
     bookTour(tourId);
   });
