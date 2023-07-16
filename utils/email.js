@@ -11,7 +11,7 @@ module.exports = class Email {
   }
 
   newTransport() {
-    if (process.env.NODE_ENV === 'prod') {
+    if (process.env.NODE_ENV === 'production') {
       return nodemailer.createTransport({
         service: 'SendinBlue',
         auth: {

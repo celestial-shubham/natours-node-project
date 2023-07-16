@@ -22,7 +22,7 @@ const createSendToken = (user, statusCode, res) => {
     sameSite: 'none', // Use lowercase "sameSite"
     secure: true // Always set "secure" to true in production
   };
-  if (process.env.NODE_ENV === 'prod') cookieOptions.secure = true;
+  if (process.env.NODE_ENV === 'production') cookieOptions.secure = true;
 
   res.cookie('jwt', token, cookieOptions);
 
