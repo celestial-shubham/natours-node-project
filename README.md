@@ -38,6 +38,16 @@ An awesome tour booking web app written in NodeJS, Express, MongoDB
 - Credit card Payment
 
 
+## To-do 🗒️
+
+- Review and rating
+  - Allow users to add a review directly at the website after they have taken a tour
+- Booking
+  - Prevent duplicate bookings after a user has booked that exact tour, implement favorite tours
+- Advanced authentication features
+  - Signup, confirm user email, log in with refresh token, two-factor authentication
+- And More! There's always room for improvement!
+
 
 ## Setting Up Your Local Environment ⚙️
 
