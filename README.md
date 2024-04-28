@@ -71,3 +71,9 @@ If you wish to play around with the code base in your local environment, do the 
 * Start the server.
 * Your app should be running just fine.
 ```
+
+
+
+## Acknowledgement 🙏🏻
+
+- This project is part of the online course I've taken at Udemy. Thanks to Jonas Schmedtmann for creating this awesome course! Link to the course: [Node.js, Express, MongoDB & More: The Complete Bootcamp 2019](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/)
