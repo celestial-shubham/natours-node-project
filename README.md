@@ -1,5 +1,6 @@
 # Natours Application 
-An awesome tour booking web app written in NodeJS, Express, MongoDB
+<h4 align="center">An awesome tour booking site built on top of <a href="https://nodejs.org/en/" target="_blank">NodeJS</a>.</h4>
+<!-- An awesome tour booking web app written in NodeJS, Express, MongoDB -->
 
 
 ## Key Features 📝
